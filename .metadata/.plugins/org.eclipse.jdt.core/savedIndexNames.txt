@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Asus\Desktop\ADS-24-25\.metadata\.plugins\org.eclipse.jdt.core
-33110876.index
-1865797976.index

@@ -1,0 +1,27 @@
+package problem1;
+
+public class Cat extends Animal {
+	public Cat() {
+		super(); 
+	}
+	public Cat(String name , int age , String color) {
+		super(name , age , color);
+	}
+	@Override 
+	public String voice() {
+		return "I say Meowww"; 
+	}
+	
+	public String voice(int times) {
+		String repeat = "I say " ; 
+		for(int i = 0 ; i < times ; i++) {
+			repeat +=voice();
+			repeat +=" "; 
+		}
+		return repeat ;
+	}
+	
+	public String toString(){
+		return super.toString() ;
+	}
+}
